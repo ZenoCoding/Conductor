@@ -16,7 +16,7 @@ Before building, ensure that you have the following dependencies installed:
 
 Building a release build of Conductor is simple; after cloning the repository run `make setup && make release` to install all the dependencies of the react applications, and then compile both the React apps and the Rust backend into a single executable. When this process is completed, you can find the compiled driver station at `target/release/conductor`. 
 
-# Prebuilt Artifacts
+# Prebuilt Artifacts 
 
 Some artifacts are built and saved automatically by Github Actions. These artifacts can be found published under the Build Status action for the `next` branch.  The artifacts that can be downloaded [here](https://github.com/Redrield/Conductor/actions/workflows/ci.yml?query=branch%3Anext) (Click the link, select the top result, and scroll down to the bottom section that says "artifacts") are:
 
